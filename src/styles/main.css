@@ -1,0 +1,55 @@
+h1{
+    background-color: darkgoldenrod;
+    text-align: center;    
+    font:48px Arial;
+}
+.fighters{
+    margin:0 auto;
+    text-align: center;
+}
+.field{
+    margin-bottom: 15px;
+}
+
+.fight{
+    margin-top: 260px;    
+}
+
+.user {
+    position: relative;
+    margin-right: 50px;
+    height: 70px;
+}
+
+#improved-user-info,
+#user-info{    
+    display: none;    
+    width:200px;
+    height:70px;
+    margin: 0 auto;
+    padding:15px 25px;
+    border:2px solid black;
+}
+
+.first-player,
+.second-player{       
+    width:auto;
+    border:2px solid black;
+    padding: 10px;
+    margin: 10px 15px;
+}
+#start,
+#reset{
+    display: none;
+    padding:15px 20px;
+    background-color: darkgoldenrod;
+    margin:20px auto;
+}
+#challenge{
+    padding:10px 25px;
+    background-color: darkgoldenrod;
+}
+
+.wrapper span{
+    font:18px Arial;
+}

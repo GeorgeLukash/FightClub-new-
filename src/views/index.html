@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="src/styles/main.css">
+  <link rel="icon" href="src/styles/img/js.png" />
+  <title>FightClub</title>
+</head>
+
+<body>
+
+  <h1>FightClub</h1>
+  <div class="fighters">
+    <div class="first-player">
+
+      <h3>First fighter</h3>
+
+      <div class='field'>
+        <span>Name:</span>
+        <input type='text' id='name' />
+      </div>
+
+      <div class='field'>
+        <span>Power:</span>
+        <input type='text' id='power' />
+      </div>
+
+      <div class='field'>
+        <span>Health:</span>
+        <input type='text' id='health' />
+      </div>
+
+      <hr/>
+      <div id='user-info'></div>
+    </div>
+
+    <div class="second-player">
+
+      <h3>Second fighter(Improved)</h3>
+
+      <div class='field'>
+        <span>Name:</span>
+        <input type='text' id='improvedname' />
+      </div>
+
+      <div class='field'>
+        <span>Power:</span>
+        <input type='text' id='improvedpower' />
+      </div>
+
+      <div class='field'>
+        <span>Health:</span>
+        <input type='text' id='improvedhealth' />
+      </div>
+
+      <hr/>
+      <div id='improved-user-info'></div>
+    </div>
+
+    <div class="wrapper">
+      <span>Enter your points. But be carfull. Your numbers must be saperated by space (" ")</span>
+      <input type="text" id="point" />
+    </div>
+
+    <button id='challenge'>Set Info</button>
+    <hr/>
+    <button id='start'>Start</button>    
+    <h1>--------Fight list--------</h1>
+    <div id="show-fight"></div>
+
+    <button id='reset'>Reset</button>
+
+  </div>
+
+</body>
+
+</html>
